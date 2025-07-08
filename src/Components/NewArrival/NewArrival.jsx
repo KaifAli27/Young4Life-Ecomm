@@ -1,4 +1,5 @@
 import { FaStar } from "react-icons/fa";
+import FacetedFilter from "../FacetedFilter/FacetedFilter";
 const NewArrival = () => {
 
     const newArrivalsCategories = [
@@ -104,6 +105,10 @@ const NewArrival = () => {
                         ))
                     }
                 </div>
+                <div className="mb-6">
+                <FacetedFilter />
+                </div>
+
                 <div className="grid grid-cols-3 gap-8">
                     {
                         newArrivalProducts.map((product) => (
