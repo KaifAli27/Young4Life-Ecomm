@@ -5,6 +5,10 @@ import Brand from '../../Components/Brand/Brand'
 import Deals from '../../Components/Deals/Deals'
 import NewArrival from '../../Components/NewArrival/NewArrival'
 import FollowUs from '..//../Components/FollowUs/FollowUs'
+import Survey from '../../Components/Survey/Survey'
+import PurchaseFlow from '../../Components/PurchaseFlow/PurchaseFlow'
+
+
 const Home = () => {
   return (
     <div>
@@ -19,8 +23,15 @@ const Home = () => {
         <div>
           <Deals/>
         </div>
+        
         <div>
           <NewArrival/>
+        </div>
+        <div>
+          <PurchaseFlow/>
+        </div>
+        <div>
+          <Survey/>
         </div>
         <div>
           <FollowUs/>

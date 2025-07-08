@@ -16,9 +16,9 @@ const HomeNavbar = () => {
                         <NavLink to={'/'} className='text-base text-[#484848] capitalize font-normal font-poppins'>home</NavLink>
                         <NavLink to={'/'} className='text-base text-[#484848] capitalize font-normal font-poppins'>Hot Sale</NavLink>
                         <NavLink to={'/'} className='text-base text-[#484848] capitalize font-normal font-poppins'>Latest Drop</NavLink>
-                        <NavLink to={'/'} className='text-base text-[#484848] capitalize font-normal font-poppins'>Bundles</NavLink>
-                        <NavLink to={'/'} className='text-base text-[#484848] capitalize font-normal font-poppins block'>sign in</NavLink>
-                        <NavLink to={'/'} className='text-base capitalize font-normal font-poppins px-6 py-2.5 bg-black text-white rounded-lg'>sign up</NavLink>
+                        <NavLink to={'/'} className='text-base text-[#484848] capitalize font-normal font-poppins'>Sign In</NavLink>
+                        <NavLink to={'/'} className='text-base text-[#484848] capitalize font-normal font-poppins block'>Checkout</NavLink>
+                        <NavLink to={'/'} className='text-base capitalize font-normal font-poppins px-6 py-2.5 bg-black text-white rounded-lg'>Cart</NavLink>
                     </nav>
                 </div>
             </div>
